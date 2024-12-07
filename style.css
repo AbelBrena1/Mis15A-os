@@ -227,7 +227,7 @@ body {
     padding: 10px;
 }
 
-.rain-of-envelopes-section{
+.rain-of-envelopes-section {
     background-color: #ffffffd3;
     padding: 30px;
     border: 1px solid #dcdcdc;
@@ -237,4 +237,63 @@ body {
     text-align: center;
 }
 
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .container .image-bg {
+        height: 50vh;
+    }
 
+    .content h1 {
+        font-size: 3em;
+    }
+
+    .content p {
+        font-size: 1.2em;
+    }
+
+    .countdown-title {
+        font-size: 2em;
+    }
+
+    .countdown div {
+        padding: 10px 20px;
+        font-size: 1.2em;
+    }
+
+    .countdown div span {
+        font-size: 0.7em;
+    }
+
+    .reception-details,
+    .rain-of-envelopes-section {
+        padding: 20px;
+    }
+
+    .reception-details h2,
+    .rain-of-envelopes-section h2 {
+        font-size: 1.5em;
+    }
+
+    .details,
+    .rain-of-envelopes-section p {
+        font-size: 1em;
+    }
+
+    .map-button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+
+    .confirmation-section {
+        padding: 20px;
+    }
+
+    .confirmation-section h2 {
+        font-size: 1.5em;
+    }
+
+    .confirmation-button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
