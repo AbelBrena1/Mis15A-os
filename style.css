@@ -237,63 +237,23 @@ body {
     text-align: center;
 }
 
-/* Media Queries para dispositivos móviles */
-@media (max-width: 768px) {
-    .container .image-bg {
-        height: 50vh;
-    }
+/* Estilos para el botón de reproducción de música */
+.music-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
 
-    .content h1 {
-        font-size: 3em;
-    }
+.music-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #c3a593;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
 
-    .content p {
-        font-size: 1.2em;
-    }
-
-    .countdown-title {
-        font-size: 2em;
-    }
-
-    .countdown div {
-        padding: 10px 20px;
-        font-size: 1.2em;
-    }
-
-    .countdown div span {
-        font-size: 0.7em;
-    }
-
-    .reception-details,
-    .rain-of-envelopes-section {
-        padding: 20px;
-    }
-
-    .reception-details h2,
-    .rain-of-envelopes-section h2 {
-        font-size: 1.5em;
-    }
-
-    .details,
-    .rain-of-envelopes-section p {
-        font-size: 1em;
-    }
-
-    .map-button {
-        font-size: 1em;
-        padding: 8px 16px;
-    }
-
-    .confirmation-section {
-        padding: 20px;
-    }
-
-    .confirmation-section h2 {
-        font-size: 1.5em;
-    }
-
-    .confirmation-button {
-        font-size: 1em;
-        padding: 8px 16px;
-    }
+.music-button:hover {
+    background-color: #b29280;
 }

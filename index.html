@@ -61,5 +61,32 @@
             <h2>Lluvia de Sobres</h2>
             <p>En lugar de regalos, te invitamos a participar en nuestra lluvia de sobres. ¡Tu contribución será muy apreciada!</p>
         </div>
+
+        <!-- Reproductor de música invisible -->
+        <audio id="background-music" loop>
+            <source src="Musica.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+
+        <!-- Botón para reproducir música -->
+        <div class="music-button-container">
+            <button id="play-music-button" class="music-button">Reproducir Música</button>
+        </div>
+
+    </div>
+
+    <script>
+        // Reproducir música automáticamente cuando se hace clic en el botón
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('background-music');
+            var playButton = document.getElementById('play-music-button');
+
+            playButton.addEventListener('click', function() {
+                audio.play();
+                playButton.style.display = 'none'; // Ocultar el botón después de reproducir la música
+            });
+        });
+    </script>
+
 </body>
 </html>
